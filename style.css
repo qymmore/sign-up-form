@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Roboto:wght@100;300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #00021E;
+}
+
+.image>img {
+    max-width: 600px;
+}
+
+h1 {
+    background-color: black;
+    font-family: 'Italiana', serif;
+    color: white;
+    max-width: 600px;
+    text-align: center;
+    margin-top: -700px;
+    font-size: 100px;
+    font-weight: 100;
+}
+
+h2 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    margin-left: 220px;
+}
+
+.credits {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    margin-top: 520px;
+    margin-left: 150px;
+}
+
+a {
+    color: white;
+}
+
+.right-side {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 600px;
+    margin-top: -60%;
+}
+
+.main-text {
+    color: white;
+    margin-bottom: 60px;
+    margin-top: 40px;
+    font-family: 'Italiana', serif;
+    padding-left: 30px;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.sign-up {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+fieldset {
+    padding: 20px 50px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    background-color: white;
+}
+
+form {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+label {
+    padding-bottom: 10px;
+    background-color: white;
+    font-family: 'Italiana', serif;
+}
+
+.input {
+    display: flex;
+    flex-flow: column wrap;
+    width: 40%;
+}
+
+input {
+    padding: 5px;
+    background-color: white;
+}
+
+button {
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding: 10px 50px;
+    border-radius: 10px;
+    font-family: 'Italiana', serif;
+    font-size: medium;
+    font-weight: bolder;
+    cursor: pointer;
+    border: none;
+}
+
+.prev-account {
+    color: white;
+    font-family: 'Italiana', serif;
+    font-size: large;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+
+input:valid {
+    border-color: green;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+
+
+

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign-up Form</title>
+</head>
+<body>
+    <div class="left-side">
+        <div class="image">
+            <img src="./mindaugas-norvilas-x6BiltXC1hk-unsplash.jpg" alt="visage">
+        </div>
+        <div class="title">
+            <h1>VISAGE</h1>
+            <h2>Qui Vivra Verra</h2>
+        </div>
+    </div>
+
+    <p class="credits">
+        © Photo by <a href="https://unsplash.com/@norvilas"> Mindaugas Norvillas</a> on <a href="https://unsplash.com/"> Unsplash</a>
+    </p>
+
+
+    <div class="right-side">
+        <div class="main-text">
+            This is not a real online service. You know you need something like this in your life to help you realize your deepest dreams. <br>
+
+            <div class="sign-up">
+                Sign up <em>now</em> to get started. <br>
+            </div>
+    
+            You <em>know</em> you want to.
+        </div>
+        <fieldset>
+            <form action="#" method="get" novalidate>
+                <div class="input">
+                    <label for="first_name">FIRST NAME</label>
+                    <input type="text" name="first_name" id="first_name" required placeholder="Bob">
+                </div>
+
+                <div class="input">
+                    <label for="last_name">LAST NAME</label>
+                    <input type="text" name="last_name" id="last_name" required placeholder="Smith">
+                </div>
+
+                <div class="input">
+                    <label for="user_email">EMAIL</label>
+                    <input type="email" name="user_email" id="user_email" required placeholder="xyz@yourmail.com">
+                </div>
+
+                <div class="input">
+                    <label for="phone">PHONE NUMBER</label>
+                    <input type="number" name="phone_number" id="phone" required placeholder="123-456-7890">
+                </div>
+
+                <div class="input">
+                    <label for="user_password">PASSWORD</label>
+                    <input type="password" name="user_password" id="user_password" required min="6" max="16">
+                </div>
+
+                <div class="input">
+                    <label for="confirm">CONFIRM PASSWORD</label>
+                    <input type="password" name="confirm" id="confirm" required>
+                </div>
+            </form>
+        </fieldset>
+
+        <button type="submit">Create Account</button>
+
+        <div class="prev-account">
+            Already have an account? <a href="#">Log in</a>
+        </div>
+    </div>
+</body>
+</html>
